@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Apply styles to the form element using its tag name */
+    form {
+      padding: 25px;
+      background-color: pink;
+    }
+
+    /* Apply styles to the input element using its id */
+    #name {
+      height: 25px;
+    }
+
+    /* Apply styles to the label element using the "for" attribute */
+    #nameLabel {
+      font-style: italic;
+    }
+
+    /* Apply styles to buttons using the class name */
+    .btn {
+      margin-top: 25px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="myForm">
+    <label for="name" id="nameLabel">Name:</label>
+    <input type="text" id="name">
+    <br>
+    <button type="submit" class="btn">Submit</button>
+    <button type="reset" class="btn">Reset</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+
+</html>
